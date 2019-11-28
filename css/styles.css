@@ -1,0 +1,265 @@
+:root {
+  /* colores del proyecto */
+  --white: #FFFFFF;
+  --lgreen: #CEF88B;
+  --dgreen: #9ED356;
+  --orange: #FFB93F;
+  --brown: #A46A45;
+  --purple: #5960CF;
+  --gray: #5F6065;
+  --black: #000000;
+  --border: 1px 1px 4px 0px gray;
+}
+
+body {
+  margin: 0%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--white);
+}
+
+nav {
+    background-color: var(--dgreen);
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+body nav div a {
+    color: var(--white);
+    text-decoration: none;
+    margin-top: 10%;
+    margin-right: 22px;
+    font-size: 13px;
+}
+
+body nav div a:hover {
+    color: var(--lgreen);
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+nav ul{
+  margin-top: 5%;
+  display: flex;
+}
+
+nav li{
+  padding-right: 20px;
+  list-style: none;
+}
+
+nav li a{
+  color: var(--white);
+  text-decoration: none;
+}
+
+body footer div a {
+    color: var(--white);
+    text-decoration: none;
+    margin-right: 2px;
+    font-size: 13px;
+}
+
+.personajesuno {
+  background-image: url("../images/pesoide.png");
+  max-height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 10%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+.personajesdos {
+  padding: 10%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+.repollos {
+  padding: 2%;
+  margin-top: -240px;
+}
+
+.moraemp {
+  padding: 2%;
+  margin-top: -10%;
+}
+
+.repollos .content {
+  background-color: white;
+  padding: 1%;
+  box-shadow: 1px 1px 5px 5px var(--orange);
+  color: var(--black);
+  text-align: center;
+  box-shadow: 1px 1px 5px 5px var(--orange);
+}
+
+.moraemp .content {
+  background-color: white;
+  padding: 1%;
+  box-shadow: 1px 1px 5px 5px var(--orange);
+  color: var(--black);
+  text-align: center;
+  box-shadow: 1px 1px 5px 5px var(--orange);
+}
+
+.img_content {
+  text-align: center;
+  padding: 5%;
+}
+
+.img_contenedor {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.main_button{
+  background-color: var(--dgreen);
+  width: 100%;
+  padding: 10px;
+  font-size: 17x;
+  color: var(--white);
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.main_button:hover{
+  background-color: var(--lgreen);
+}
+
+.altura_img {
+  height: 250px;
+}
+
+.somos {
+  margin-top: 2%;
+  background-image: url("../images/curvas.png");
+  max-height: 150px;
+  background-size: cover;
+  background-position: center top;
+  padding: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.descrip {
+  padding: 5%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.img_content {
+  text-align: center;
+}
+
+.img_nerd {
+  margin-top: 2%;
+  height: 500px;
+  text-align: center;
+}
+
+.fontdescrip {
+  font-size: 22px;
+}
+
+.heroes {
+  background-color: var(--white);
+  padding: 2%;
+  margin-top: 3%;
+}
+
+.heroes .content {
+  padding: 1%;
+  text-align: center;
+}
+
+.encabezados {
+  font-weight: bold;
+  padding: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+  color: var(--dgreen);
+}
+
+.parrafos {
+  color: var(--gray);
+  text-align: center;
+  padding: 2%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.descripm {
+  font-weight: bold;
+  padding: 4%;
+  margin-top: 1%;
+  text-align: center;
+  color: var(--gray);
+}
+
+.button {
+  background-color: var(--dgreen);
+  width: 100%;
+  font-size: 50px;
+  color: var(--white);
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+  align-self: center;
+}
+
+.button:hover{
+  background-color: var(--lgreen);
+}
+
+footer {
+    background-color: var(--gray);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+body footer div a {
+    color: var(--white);
+    text-decoration: none;
+    margin-right: 22px;
+    font-size: 13px;
+}
+
+body footer div a:hover {
+    color: var(--black);
+    text-decoration: none;
+}
+
+footer ul{
+  display: flex;
+}
+
+footer li{
+  padding-right: 20px;
+  list-style: none;
+}
+
+footer li a{
+  color: var(--white);
+  text-decoration: none;
+}
